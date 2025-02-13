@@ -39,28 +39,29 @@ public class UserController{
 		this.productService = productService;
 	}
 
-	@GetMapping("/register")
-	public String registerUser()
-	{
-		return "register";
-	}
-
 	@GetMapping("/buy")
 	public String buy()
 	{
 		return "buy";
 	}
 
-	@GetMapping("/login")
-	public ModelAndView userlogin(@RequestParam(required = false) String error) {
-	    ModelAndView mv = new ModelAndView("userLogin");
-	    if ("true".equals(error)) {
-	        mv.addObject("msg", "Please enter correct email and password");
-	    }
-	    return mv;
+	// @GetMapping("/login")
+	// public ModelAndView userlogin(@RequestParam(required = false) String error) {
+	//     ModelAndView mv = new ModelAndView("userLogin");
+	//     if ("true".equals(error)) {
+	//         mv.addObject("msg", "Please enter correct email and password");
+	//     }
+	//     return mv;
+	// }
+
+	@GetMapping("/user/login")
+	public ModelAndView userlogin() 
+	{
+    	return new ModelAndView("userLogin"); // akan mencari /views/userLogin.jsp
 	}
+
 	
-	@GetMapping("/")
+	@GetMapping("/user")
 	public ModelAndView indexPage()
 	{
 		ModelAndView mView  = new ModelAndView("index");	
