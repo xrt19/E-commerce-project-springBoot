@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java Spring Boot Containerization Practice
 
 This repository is a fork of another project that I am using to learn containerization with Java Spring Boot. In the branch named **irfan**, I have implemented my containerization exercises and configurations.
@@ -27,6 +28,8 @@ git checkout irfan
 
 ===
 
+=======
+>>>>>>> parent of 99f370b (Update README.md)
 ## Old Version
 - https://github.com/jaygajera17/E-commerce-project-springBoot/tree/main
 - issue: everytime connection open close for access database 
