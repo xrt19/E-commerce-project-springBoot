@@ -1,35 +1,28 @@
-<<<<<<< HEAD
-# Java Spring Boot Containerization Practice
+# Docker Containerization Practice
 
-This repository is a fork of another project that I am using to learn containerization with Java Spring Boot. In the branch named **irfan**, I have implemented my containerization exercises and configurations.
+This repository is a fork of another project that I am using to practice Docker containerization. I have created three branches, each demonstrating a different configuration setup:
 
-## Overview
+## Branches
 
-- **Base Project:** Forked from an existing repository.
-- **Focus:** Containerizing a Java Spring Boot application using Docker.
-- **Branch:** `irfan` – Contains all my containerization practice.
+1. **non-compose with online MongoDB**  
+   In this branch, the containerized application connects to an online MongoDB instance without using Docker Compose.
 
-## Technologies Used
+2. **non-compose with local MongoDB**  
+   In this branch, the application is containerized and connects to a MongoDB instance running locally, again without Docker Compose.
 
-- **Framework:** Java Spring Boot
-- **Containerization Tool:** Docker
-
-## What's Inside the `irfan` Branch
-
-- Customized Dockerfile(s) for the Spring Boot application.
-- Configuration files for container setup.
-- Scripts and documentation related to my containerization experiments.
+3. **compose with local MongoDB**  
+   In this branch, Docker Compose is used to orchestrate both the application container and a local MongoDB container for a fully integrated setup.
 
 ## Usage
 
-To explore the containerization practice, switch to the `irfan` branch:
-```bash
-git checkout irfan
+- Switch to the desired branch based on the configuration you wish to experiment with.
+- Follow the instructions provided in each branch’s documentation (if available) for building and running the containers.
+- These branches are intended for learning purposes, showcasing different approaches to managing database connectivity and container orchestration with Docker.
+
+Happy containerizing!
 
 ===
 
-=======
->>>>>>> parent of 99f370b (Update README.md)
 ## Old Version
 - https://github.com/jaygajera17/E-commerce-project-springBoot/tree/main
 - issue: everytime connection open close for access database 
