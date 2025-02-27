@@ -25,7 +25,6 @@ To explore the containerization practice, switch to the `irfan` branch:
 ```bash
 git checkout irfan
 
-
 ===
 
 ## Old Version
