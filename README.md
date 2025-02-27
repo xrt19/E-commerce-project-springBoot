@@ -1,25 +1,27 @@
-# Docker Containerization Practice
+# Java Spring Boot Containerization Practice
 
-This repository is a fork of another project that I am using to practice Docker containerization. I have created three branches, each demonstrating a different configuration setup:
+This repository is a fork of another project that I am using to learn containerization with Java Spring Boot. In the branch named **irfan**, I have implemented my containerization exercises and configurations.
 
-## Branches
+## Overview
 
-1. **non-compose with online MongoDB**  
-   In this branch, the containerized application connects to an online MongoDB instance without using Docker Compose.
+- **Base Project:** Forked from an existing repository.
+- **Focus:** Containerizing a Java Spring Boot application using Docker.
+- **Branch:** `irfan` – Contains all my containerization practice.
 
-2. **non-compose with local MongoDB**  
-   In this branch, the application is containerized and connects to a MongoDB instance running locally, again without Docker Compose.
+## Technologies Used
 
-3. **compose with local MongoDB**  
-   In this branch, Docker Compose is used to orchestrate both the application container and a local MongoDB container for a fully integrated setup.
+- **Framework:** Java Spring Boot
+- **Containerization Tool:** Docker
+
+## What's Inside the `irfan` Branch
+
+- Customized Dockerfile(s) for the Spring Boot application.
+- Configuration files for container setup.
+- Scripts and documentation related to my containerization experiments.
 
 ## Usage
 
-- Switch to the desired branch based on the configuration you wish to experiment with.
-- Follow the instructions provided in each branch’s documentation (if available) for building and running the containers.
-- These branches are intended for learning purposes, showcasing different approaches to managing database connectivity and container orchestration with Docker.
-
-Happy containerizing!
+To explore the containerization practice, switch to the `irfan` branch
 
 ===
 
