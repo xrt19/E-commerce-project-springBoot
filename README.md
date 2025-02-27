@@ -1,3 +1,32 @@
+# Java Spring Boot Containerization Practice
+
+This repository is a fork of another project that I am using to learn containerization with Java Spring Boot. In the branch named **irfan**, I have implemented my containerization exercises and configurations.
+
+## Overview
+
+- **Base Project:** Forked from an existing repository.
+- **Focus:** Containerizing a Java Spring Boot application using Docker.
+- **Branch:** `irfan` – Contains all my containerization practice.
+
+## Technologies Used
+
+- **Framework:** Java Spring Boot
+- **Containerization Tool:** Docker
+
+## What's Inside the `irfan` Branch
+
+- Customized Dockerfile(s) for the Spring Boot application.
+- Configuration files for container setup.
+- Scripts and documentation related to my containerization experiments.
+
+## Usage
+
+To explore the containerization practice, switch to the `irfan` branch:
+```bash
+git checkout irfan
+
+===
+
 ## Old Version
 - https://github.com/jaygajera17/E-commerce-project-springBoot/tree/main
 - issue: everytime connection open close for access database 
